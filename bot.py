@@ -24,7 +24,7 @@ def talk_to_me(update, context):
 
 def main():
     # Создаем бота и передаем ему ключ для авторизации на серверах Telegram
-    # mybot = Updater("5131067315:AAEMLWWWKvpM2FHRVPugGD1EfiTN4RIMekE", use_context=True, request_kwargs=PROXY)
+    # mybot = Updater("settings.API_KEY", use_context=True, request_kwargs=PROXY)
     mybot = Updater(settings.API_KEY, use_context=True)
 
     dp = mybot.dispatcher
